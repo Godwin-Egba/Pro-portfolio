@@ -54,7 +54,8 @@ body {
     width: 325px;
     height: 325px;
     border-radius: 50%  !important;
-    border: 5px solid #D7FFE0 ;
+    /* border: 5px solid #D7FFE0 ; */
+    box-shadow: 1px 1px  14px white;
 }
 
 
@@ -305,11 +306,14 @@ textarea {
 
 
     .image{
-        width: 300px;
-        height: 300px;
-        border-radius: 50%  !important;
-        border: 5px solid #D7FFE0 ;
+     width: 300px;
+     height: 300px;
+     border-radius: 500%  !important;
+     margin-top: 2rem;
+     margin-left: 1rem;
     }
+
+
 
     .contacts h3{
         font-size: 30px;
@@ -372,7 +376,10 @@ textarea {
         margin: auto;
     }
     
-
+    h3 {
+        font-size: 30px;
+        color: white;
+    }
  
 
     .icon{
@@ -440,11 +447,11 @@ textarea {
      
     }
 
-    .image{
+    /* .image{
         margin-top: 2rem;
         margin-left: 1rem;
         
-    }
+    } */
 
     
 span{
