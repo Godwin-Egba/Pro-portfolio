@@ -207,12 +207,13 @@ h2 {
  
     display: flex;
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     border-radius: 50px;
     align-items: center;
     position: absolute;
-    top: 20px;
+    top: 400px;
     right: 40px;
+    position: fixed;
 }
 .fa-moon-o{
     color: black;
@@ -291,10 +292,17 @@ textarea {
         margin-top: 8rem;
     }
     .navbar-toggler{
-    /* background-color: red !important; */
+    border: none;
     font-size: 5px !important;
     margin-right: 8px;
     }
+
+
+    .stack img{
+        width: 70%;
+        padding-left: 1rem;
+    }
+
 
     .image{
         width: 300px;
@@ -318,6 +326,14 @@ textarea {
     height: 1px;
     background-color: rgba(0, 0, 0, 0.714);
 }
+
+.card-body{
+    color: white;
+    font-size: 19px !important;
+    margin-right: 10px;
+    width: 100%;
+}
+
 
 
 
@@ -351,6 +367,12 @@ textarea {
         background-color: black;
     }
 
+    .card1{
+        width: 96%;
+        margin: auto;
+    }
+    
+
  
 
     .icon{
@@ -361,7 +383,10 @@ textarea {
         border-radius: 50px;
         top: 200px;
         right: 5px;
+        position: fixed;
     }
+
+
 
   .gap{
     margin-top: 1rem;
