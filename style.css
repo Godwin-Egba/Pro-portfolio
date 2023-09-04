@@ -459,11 +459,11 @@ textarea {
 
 
     .image{
-     width: 300px;
-     height: 300px;
-     border-radius: 500%  !important;
+     width: 250px;
+     height: 250px;
+     border-radius: 50%  !important;
      margin-top: 2rem;
-     margin-left: 1rem;
+     margin-left: 2.5rem;
     }
 
 
